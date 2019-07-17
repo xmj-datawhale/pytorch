@@ -13,6 +13,18 @@
 ```angular2html
 #创建conda虚拟环境
 conda create -n conda36 python=3.6
+删除环境（不要乱删啊啊啊）
+conda remove -n py36 --all
+jupyter中添加conda虚拟环境
+
+https://blog.csdn.net/u014665013/article/details/81084604
+
+https://www.jianshu.com/p/0432155d1bef
+
+'''
+python -m ipyhandson-ml install --user --name handson-ml --display-name "handson-ml"
+'''
+
 #安装 pytorch
 conda install pytorch-cpu torchvision-cpu -c pytorch
 #验证
@@ -31,6 +43,8 @@ pip3 install https://download.pytorch.org/whl/cpu/torch-1.0.0-cp36-cp36m-win_amd
 pip3 install torchvision
 
 ```
+## jupyter notebook 安装
+https://www.brothereye.cn/python/335/
 
 ## linux unbantu18版安装
 ```angular2html
